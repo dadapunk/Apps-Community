@@ -16,7 +16,7 @@
         pgrole: 'mariadb'
         intport: '3306'
         extport: '6603'
-        image: 'mariadb:latest'
+        image: 'linuxserver/mariadb:arm32v7-latest'
 
     - name: 'Including cron job'
       include_tasks: '/opt/communityapps/apps/_core.yml'
