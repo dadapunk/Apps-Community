@@ -15,7 +15,7 @@
         pgrole: 'home-assistant'
         intport: '8123'
         extport: '8123'
-        image: 'homeassistant/raspberrypi3-homeassistant:stable'
+        image: 'homeassistant/armv7-hassio-supervisor'
 
     # CORE (MANDATORY) ############################################################
     - name: 'Including cron job'
